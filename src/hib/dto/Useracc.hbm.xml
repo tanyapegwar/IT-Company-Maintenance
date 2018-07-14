@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="hib.dto">
+    
+  <class name="Useracc" table="signupaccountant">
+    <id name="username"/>
+    <property name="email"/>
+    <property name="contactno"/>
+    <property name="city"/>
+    <property name="gender"/>
+    <property name="workexperience"/>
+    <property name="password"/>
+  </class>
+</hibernate-mapping>

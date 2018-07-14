@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="it.dto">
+<class name="Login" table="login12345">
+<id name="managerUsername" column="managerUsername"/>
+<property name="managerPassword" column="managerPassword"/>
+<property name="operatorUsername" column="operatorUsername"/>
+<property name="operatorPassword" column="operatorPassword"/>
+<property name="accountantUsername" column="accountantUsername"/>
+<property name="accountantPassword" column="accountantPassword"/>
+</class>    
+</hibernate-mapping>

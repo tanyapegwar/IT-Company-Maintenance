@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="it.dto">
+<class name="Managers" table="Managertable">
+<id name="managerName" column="ManagerName"/>
+<property name="managerContactNo" column="managerContactNo"/>
+<property name="managerEmail" column="managerEmail"/>
+<property name="noOfOperator" column="noOfOperator"/>
+<property name="operatorName" column="operatorName"/>
+<property name="operatorDepartment" column="operatorDepartment"/>
+<property name="operatorEmail" column="operatorEmail"/>
+<property name="operatorContactNo" column="operatorContactNo"/>
+<property name="maintenanceApproval" column="maintenanceApproval"/>
+<property name="accountantInchargeName" column="accountantInchargeName"/>
+</class>    
+              
+</hibernate-mapping>
